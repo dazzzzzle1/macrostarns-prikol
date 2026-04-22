@@ -1,0 +1,12 @@
+# Бесплатный тариф Render: https://render.com
+# После пуша в GitHub: New → Web Service → подключить репозиторий → Docker
+# Важно: на Free диск контейнера может обнуляться при перезапуске/деплое — бэкап заявок через CSV в админке.
+services:
+  - type: web
+    name: macrotrans-site
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: ADMIN_PASS
+        sync: false

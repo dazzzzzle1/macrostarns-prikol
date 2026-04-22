@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Профессиональный ремонт грузовых автомобилей: двигатель, трансмиссия, электрика. Заявка на ремонт за 1 минуту." />
+    <title>МакроТранс | Ремонт грузовиков</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="public-site">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="brand">
+          <a class="brand-link" href="#top" aria-label="МакроТранс — на главную">
+            <span class="brand-mark" aria-hidden="true">М</span>
+            <span class="brand-name">МакроТранс</span>
+          </a>
+        </div>
+
+        <nav class="nav" aria-label="Навигация">
+          <a class="nav-link" href="#services">Услуги</a>
+          <a class="nav-link" href="#brands">Марки</a>
+          <a class="nav-link" href="#prices">Цены</a>
+          <a class="nav-link" href="#about">О компании</a>
+          <a class="nav-link nav-admin" href="admin.php" data-open-admin>Админка</a>
+        </nav>
+
+        <div class="header-contacts">
+          <a class="phone" href="tel:+79268816768">+7 (926) 881-67-68</a>
+          <button class="btn btn-primary btn-cta" type="button" data-open-form>
+            Записаться
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <h1 class="hero-title" id="hero-title">Профессиональный ремонт грузовых автомобилей</h1>
+            <p class="hero-subtitle">
+              Двигатель, трансмиссия, электрика и диагностика. Работаем с популярными марками грузовиков.
+            </p>
+            <ul class="hero-usp">
+              <li>Диагностика за 30 минут</li>
+              <li>Гарантия на выполненные работы</li>
+              <li>Согласуем стоимость до начала ремонта</li>
+            </ul>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-open-form>
+                Оставить заявку
+              </button>
+              <a class="btn btn-ghost" href="#prices">Посмотреть цены</a>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Блок быстрых контактов">
+            <h2 class="hero-card-title">Нужен ремонт?</h2>
+            <p class="hero-card-text">
+              Оставьте заявку — менеджер свяжется с вами и уточнит марку/симптомы.
+            </p>
+            <div class="hero-card-row">
+              <span class="hero-card-label">Телефон</span>
+              <a class="hero-card-phone" href="tel:+79268816768">+7 (926) 881-67-68</a>
+            </div>
+            <div class="hero-card-row">
+              <span class="hero-card-label">Время работы</span>
+              <span class="hero-card-value">Ежедневно 9:00–19:00</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="services-title">Наши услуги</h2>
+            <p class="section-subtitle">Подбираем решения под вашу задачу: быстро, прозрачно, с гарантией.</p>
+          </div>
+
+          <div class="grid services-grid">
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">⚙️</div>
+              <h3 class="card-title">Двигатель</h3>
+              <p class="card-text">Ремонт ГБЦ, топливной системы, диагностика неисправностей.</p>
+            </article>
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">🔧</div>
+              <h3 class="card-title">Трансмиссия</h3>
+              <p class="card-text">КПП, редукторы, сцепление. Настройка и восстановление узлов.</p>
+            </article>
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">⚡</div>
+              <h3 class="card-title">Электрика</h3>
+              <p class="card-text">ЭБУ, проводка, стартеры/генераторы, поиск ошибок.</p>
+            </article>
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">🧰</div>
+              <h3 class="card-title">Ходовая часть</h3>
+              <p class="card-text">Амортизаторы, тормозная система, диагностика и регулировка.</p>
+            </article>
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">🛠️</div>
+              <h3 class="card-title">Диагностика</h3>
+              <p class="card-text">Считывание ошибок, проверка узлов и подготовка плана работ.</p>
+            </article>
+            <article class="card service-card">
+              <div class="icon" aria-hidden="true">🧾</div>
+              <h3 class="card-title">Ремонт под ключ</h3>
+              <p class="card-text">Полный цикл: от обращения до выдачи ТС после ремонта.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRANDS -->
+      <section class="section section-alt" id="brands" aria-labelledby="brands-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="brands-title">Работаем с марками</h2>
+            <p class="section-subtitle">Подбор запчастей и ремонт узлов для популярных грузовиков.</p>
+          </div>
+
+          <div class="brands-rows">
+            <ul class="brands-row">
+              <li class="brand-logo">
+                <img src="assets/foton.png" alt="Foton" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/faw.png" alt="FAW" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/gaz.png" alt="ГАЗ" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/volvo.png" alt="Volvo" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/mercedes.png" alt="Mercedes-Benz" loading="lazy" />
+              </li>
+            </ul>
+            <ul class="brands-row brands-row--second">
+              <li class="brand-logo">
+                <img src="assets/man.png" alt="MAN" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/iveco.png" alt="Iveco" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/daf.png" alt="DAF" loading="lazy" />
+              </li>
+              <li class="brand-logo">
+                <img src="assets/renault.png" alt="Renault Trucks" loading="lazy" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADVANTAGES -->
+      <section class="section" aria-labelledby="adv-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="adv-title">Почему выбирают нас</h2>
+            <p class="section-subtitle">Конкурентное преимущество формируется из сроков, прозрачности и качества.</p>
+          </div>
+
+          <div class="grid advantages-grid">
+            <div class="card adv-card">
+              <div class="adv-num">15+</div>
+              <h3 class="card-title">Лет опыта</h3>
+              <p class="card-text">Понимаем особенности грузовых авто и типовые сценарии поломок.</p>
+            </div>
+            <div class="card adv-card">
+              <div class="adv-num">100%</div>
+              <h3 class="card-title">Честные цены</h3>
+              <p class="card-text">Согласование стоимости работ и списка необходимых материалов.</p>
+            </div>
+            <div class="card adv-card">
+              <div class="adv-num">HD</div>
+              <h3 class="card-title">Современное оборудование</h3>
+              <p class="card-text">Диагностика и ремонт с применением актуальных инструментов.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA BANNER -->
+      <section class="cta-banner" aria-labelledby="cta-title">
+        <div class="container cta-inner">
+          <div class="cta-text">
+            <h2 class="cta-title" id="cta-title">Нужна диагностика? Это занимает 30 минут</h2>
+            <p class="cta-subtitle">Оставьте контакты — ответим и подскажем оптимальный план действий.</p>
+          </div>
+          <div class="cta-actions">
+            <button class="btn btn-primary" type="button" data-open-form>Записаться</button>
+            <a class="btn btn-ghost" href="#about">Подробнее</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- B2B -->
+      <section class="section section-alt" aria-labelledby="b2b-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="b2b-title">Для автопарков и транспортных компаний</h2>
+            <p class="section-subtitle">Сотрудничество по договору, работа по безналу и прозрачная отчетность.</p>
+          </div>
+
+          <div class="grid b2b-grid">
+            <div class="card b2b-card">
+              <h3 class="card-title">Работа по безналу</h3>
+              <p class="card-text">Выставляем счет и закрывающие документы по результатам работ.</p>
+            </div>
+            <div class="card b2b-card">
+              <h3 class="card-title">ЭДО и документы</h3>
+              <p class="card-text">Согласуем состав работ и передаем документы в электронном виде.</p>
+            </div>
+            <div class="card b2b-card">
+              <h3 class="card-title">Планирование ремонтов</h3>
+              <p class="card-text">Помогаем распределять нагрузку и минимизировать простои транспорта.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICE TABLE -->
+      <section class="section" id="prices" aria-labelledby="prices-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="prices-title">Прайс-лист (от)</h2>
+            <p class="section-subtitle">Окончательная стоимость зависит от диагностики и сложности работ.</p>
+          </div>
+
+          <div class="table-wrap" role="region" aria-label="Таблица цен">
+            <table class="price-table">
+              <thead>
+                <tr>
+                  <th scope="col">Услуга</th>
+                  <th scope="col">Цена</th>
+                  <th scope="col">Срок</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Услуга">Компьютерная диагностика</td>
+                  <td data-label="Цена">от 2 000 ₽</td>
+                  <td data-label="Срок">в день обращения</td>
+                </tr>
+                <tr>
+                  <td data-label="Услуга">Ремонт ГБЦ</td>
+                  <td data-label="Цена">от 18 000 ₽</td>
+                  <td data-label="Срок">1–3 дня</td>
+                </tr>
+                <tr>
+                  <td data-label="Услуга">Ремонт КПП</td>
+                  <td data-label="Цена">от 25 000 ₽</td>
+                  <td data-label="Срок">2–5 дней</td>
+                </tr>
+                <tr>
+                  <td data-label="Услуга">Ремонт электрики</td>
+                  <td data-label="Цена">от 9 000 ₽</td>
+                  <td data-label="Срок">1–4 дня</td>
+                </tr>
+                <tr>
+                  <td data-label="Услуга">Тормозная система</td>
+                  <td data-label="Цена">от 7 500 ₽</td>
+                  <td data-label="Срок">1–2 дня</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="price-note">
+            Не нашли нужную услугу? Оставьте заявку — подберем решение и рассчитаем стоимость после диагностики.
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT + GALLERY -->
+      <section class="section section-alt" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-content">
+            <h2 class="section-title" id="about-title">О компании «МакроТранс»</h2>
+            <p class="about-text">
+              Мы специализируемся на ремонте грузовых автомобилей и работаем с распространенными марками техники.
+              Наш подход — диагностика, согласование плана работ и выполнение ремонта с гарантией результата.
+            </p>
+            <ul class="about-list">
+              <li>Сначала диагностика, затем согласование стоимости</li>
+              <li>Ответственность за качество и гарантия на работы</li>
+              <li>Поддержка автопарков по безналу и ЭДО</li>
+            </ul>
+
+            <div class="about-actions">
+              <button class="btn btn-primary" type="button" data-open-form>Записаться на ремонт</button>
+              <a class="btn btn-ghost" href="#services">Выбрать услугу</a>
+            </div>
+          </div>
+
+          <div
+            class="gallery gallery-carousel"
+            id="aboutGallery"
+            role="region"
+            aria-roledescription="карусель"
+            aria-label="Галерея ремонта"
+            data-gallery-carousel
+            tabindex="0"
+          >
+            <div class="gallery-carousel__frame">
+              <div class="gallery-carousel__viewport" id="aboutGalleryViewport">
+                <div class="gallery-carousel__track" id="aboutGalleryTrack" data-gallery-track>
+                  <div class="gallery-carousel__slide" data-gallery-slide="0" aria-hidden="false">
+                    <img
+                      class="gallery-carousel__img"
+                      src="assets/gallery-box.png"
+                      alt="Ремонтный бокс: грузовик на подъёмнике, диагностика двигателя"
+                      width="800"
+                      height="500"
+                      loading="eager"
+                      decoding="async"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide" data-gallery-slide="1" aria-hidden="true">
+                    <img
+                      class="gallery-carousel__img"
+                      src="assets/gallery-process.png"
+                      alt="Процесс ремонта: доступ к двигателю, работы в сервисном боксе"
+                      width="800"
+                      height="500"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <div class="gallery-carousel__slide" data-gallery-slide="2" aria-hidden="true">
+                    <img
+                      class="gallery-carousel__img"
+                      src="assets/gallery-equipment.png"
+                      alt="Цех с подъёмными кранами, ямами и инструментом для грузовых авто"
+                      width="800"
+                      height="500"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="gallery-carousel__nav gallery-carousel__nav--prev"
+                aria-controls="aboutGalleryViewport"
+                aria-label="Предыдущее фото"
+                data-gallery-prev
+              >
+                <svg class="gallery-carousel__icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="gallery-carousel__nav gallery-carousel__nav--next"
+                aria-controls="aboutGalleryViewport"
+                aria-label="Следующее фото"
+                data-gallery-next
+              >
+                <svg class="gallery-carousel__icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M8.59 16.59 10 18l6-6-6-6-1.41 1.41L13.17 12z" />
+                </svg>
+              </button>
+            </div>
+            <p class="gallery-carousel__caption" id="aboutGalleryCaption" aria-live="polite">Бокс / ремонт</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-labelledby="footer-title" id="contacts">
+      <div class="container footer-inner">
+        <div class="footer-col footer-map-col">
+          <h2 class="footer-title">Карта</h2>
+          <div class="map" role="img" aria-label="Карта проезда по адресу Домодедово территория ЗЖБИ с18/1">
+            <iframe
+              class="map-iframe"
+              title="Яндекс.Карта: Домодедово территория ЗЖБИ с18/1"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://yandex.ru/map-widget/v1/?text=%D0%94%D0%BE%D0%BC%D0%BE%D0%B4%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%97%D0%96%D0%91%D0%98%20%D1%8118%2F1&z=17"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-col footer-form-col">
+            <h2 class="footer-title">Запись на ремонт</h2>
+
+            <form class="form" id="orderForm" autocomplete="on">
+              <!-- Honeypot против простого спама -->
+              <input type="text" name="website" tabindex="-1" class="hidden-field" autocomplete="off" aria-hidden="true" />
+
+              <label class="field">
+                <span class="label-text">Имя</span>
+                <input class="input" type="text" name="name" placeholder="Например, Иван" required />
+              </label>
+
+              <label class="field">
+                <span class="label-text">Телефон</span>
+                <input
+                  class="input input--phone"
+                  type="tel"
+                  name="phone"
+                  placeholder="+7 (___) ___-__-__"
+                  inputmode="tel"
+                  enterkeyhint="next"
+                  autocomplete="tel"
+                  maxlength="18"
+                  required
+                />
+              </label>
+
+              <label class="field">
+                <span class="label-text">Марка авто</span>
+                <input class="input" type="text" name="brand" placeholder="Например, Volvo" required />
+              </label>
+
+              <div class="form-row-datetime">
+                <label class="field field--datetime">
+                  <span class="label-text">Дата встречи</span>
+                  <input
+                    class="input input--date"
+                    type="date"
+                    name="meeting_date"
+                    id="meetingDate"
+                    autocomplete="off"
+                    required
+                  />
+                </label>
+                <label class="field field--datetime">
+                  <span class="label-text">Время встречи</span>
+                  <input
+                    class="input input--time"
+                    type="time"
+                    name="meeting_time"
+                    id="meetingTime"
+                    step="60"
+                    autocomplete="off"
+                    required
+                  />
+                </label>
+              </div>
+
+              <label class="field">
+                <span class="label-text">Описание проблемы</span>
+                <textarea class="textarea" name="message" rows="4" placeholder="Опишите симптомы и неисправность" required></textarea>
+              </label>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Отправить заявку</button>
+                <div class="form-status" role="status" aria-live="polite" aria-atomic="true"></div>
+              </div>
+
+              <p class="form-note">
+                Нажимая кнопку, вы соглашаетесь на обработку данных для связи по заявке.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-col footer-contacts-full">
+          <h2 class="footer-title" id="footer-title">Контакты</h2>
+          <p class="footer-text">
+            Позвоните или оставьте заявку — мы уточним марку автомобиля и симптомы, после чего предложим план работ.
+          </p>
+          <div class="footer-contacts">
+            <div class="contact-row">
+              <span class="contact-label">Телефон</span>
+              <a class="contact-link" href="tel:+79268816768">+7 (926) 881-67-68</a>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Адрес</span>
+              <span class="contact-value">Домодедово, территория ЗЖБИ с18/1</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Режим</span>
+              <span class="contact-value">Ежедневно 9:00–19:00</span>
+            </div>
+          </div>
+
+          <div class="social">
+            <a class="social-link social-link--top" href="#top" aria-label="Вернуться в начало страницы">Наверх</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL: Вход в админку -->
+    <div class="modal-backdrop" id="adminBackdrop" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="adminModalTitle">
+        <div class="modal-head">
+          <h2 class="modal-title" id="adminModalTitle">Вход в админку</h2>
+          <button class="modal-close" type="button" aria-label="Закрыть" data-close-admin>
+            ×
+          </button>
+        </div>
+
+        <form class="modal-form" id="adminLoginForm" method="post">
+          <label class="field">
+            <span class="label-text">Пароль</span>
+            <input class="input" type="password" name="password" autocomplete="current-password" required />
+          </label>
+
+          <div class="form-actions" style="margin-top:2px;">
+            <button class="btn btn-primary" type="submit">Войти</button>
+            <div class="form-status" id="adminStatus" role="status" aria-live="polite"></div>
+          </div>
+
+          <p class="form-note">
+            Вход и заявки работают только через PHP-сервер. В Ubuntu/WSL: в папке проекта выполните <code style="font-size:11px;opacity:.9;">bash run-ubuntu.sh</code> и откройте <code style="font-size:11px;opacity:.9;">http://127.0.0.1:8080/</code>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
+
