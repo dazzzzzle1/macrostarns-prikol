@@ -3,13 +3,9 @@
 # 🎭 Macrostarns Prikol
 
 > Небольшой проект/скрипт от [dazzzzzle1](https://github.com/dazzzzzle1).  
-> *(Здесь можно кратко описать, что именно делает проект: например, "Набор полезных макросов", "Прикол для друзей" или "Тестовый репозиторий")*
 
----
 
-## 📋 Описание
-
-**Macrostarns Prikol** — это репозиторий, содержащий [укажите тип: скрипты / макросы / конфигурации / исходный код].  
+## 📋 Описание 
 Проект создан в учебных/развлекательных целях и демонстрирует работу с [укажите технологии, если есть: Python, C++, Bash и т.д.].
 
 ### ✨ Особенности
@@ -29,14 +25,13 @@ macrostarns-prikol/
 └── LICENSE                     # Лицензия
 ```
 
-*(Отредактируйте список файлов под реальное содержимое вашей папки)*
 
 ---
 
 ## 🛠️ Технологии
 
-- **[Язык программирования]**: Например, Python 3.9+, C++17, JavaScript
-- **[Инструменты]**: Например, Git, Docker, Make
+- Язык программирования:  Python 3.9+, C++17, JavaScript
+- Инструменты:  Git, Docker, Make
 
 ---
 
@@ -49,20 +44,20 @@ cd macrostarns-prikol
 ```
 
 ### 2. Запуск
-*(Выберите подходящий вариант)*
+(Выберите подходящий вариант)
 
-**Для Python:**
+Для Python:
 ```bash
 python main.py
 ```
 
-**Для C++:**
+Для C++:
 ```bash
 g++ main.cpp -o app
 ./app
 ```
 
-**Для других скриптов:**
+Для других скриптов:
 ```bash
 chmod +x script.sh
 ./script.sh
@@ -96,8 +91,8 @@ chmod +x script.sh
 
 ## 📬 Контакты
 
-- **Автор**: [dazzzzzle1](https://github.com/dazzzzzle1)
-- **GitHub**: [macrostarns-prikol](https://github.com/dazzzzzle1/macrostarns-prikol)
+- Автор: [dazzzzzle1](https://github.com/dazzzzzle1)
+- GitHub: [macrostarns-prikol](https://github.com/dazzzzzle1/macrostarns-prikol)
 
 ---
 
